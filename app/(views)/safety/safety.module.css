@@ -1,0 +1,27 @@
+.countBtn {
+    all:unset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    border-radius: 6px;
+    background: dodgerblue;
+    color:#fff;
+}
+
+.list {
+    border:1px solid #191919;
+}
+
+.list > li {
+    padding:4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.resultBoard {
+    font-size: 24px;
+    font-weight: 600;
+}
