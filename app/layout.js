@@ -1,6 +1,9 @@
 import { Geist, Geist_Mono, Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 
+import "primereact/resources/themes/lara-light-cyan/theme.css";
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
